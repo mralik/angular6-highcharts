@@ -1,0 +1,30 @@
+.alert {
+  padding: 50px 25px;
+  background-color: rgba(10, 10, 10, 0.77);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  height: calc(100vh);
+
+  h1 {
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    height: calc(100vh - 288px);
+  }
+}
+
+#ops {
+  color: orange;
+}
+
+.error-msg {
+  color: orange;
+  text-decoration: none;
+}

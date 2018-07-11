@@ -1,0 +1,10 @@
+.chart-shadow {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+}
